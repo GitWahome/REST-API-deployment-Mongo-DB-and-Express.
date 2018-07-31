@@ -1,0 +1,22 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A Node js API built with express. Tutorial from Academind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Brian Wahome",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongoose": "^5.2.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
